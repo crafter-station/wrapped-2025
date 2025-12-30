@@ -28,7 +28,7 @@ export function GithubBadge() {
       href="https://github.com/crafter-station/wrapped-2025"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed right-4 top-4 z-50 flex items-center gap-2 rounded-full border border-border/50 bg-background/80 px-3 py-1.5 text-muted-foreground backdrop-blur-sm transition-colors hover:border-border hover:text-foreground"
+      className="fixed right-4 top-12 z-50 flex items-center gap-2 rounded-full border border-border/50 bg-background/80 px-3 py-1.5 text-muted-foreground backdrop-blur-sm transition-colors hover:border-border hover:text-foreground md:top-4"
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5 }}
