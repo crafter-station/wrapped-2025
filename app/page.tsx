@@ -6,6 +6,7 @@ import { LanguageBar } from "./components/language-bar";
 import { ActivityChart } from "./components/activity-chart";
 import { RepoCard } from "./components/repo-card";
 import { ContributorList } from "./components/contributor-list";
+import { GithubBadge } from "./components/github-badge";
 import { ScrollElement } from "@/components/ui/scroll-element";
 import stats from "@/data/stats.json";
 import type { OrganizationStats } from "@/lib/types";
@@ -15,6 +16,7 @@ const data = stats as OrganizationStats;
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
+      <GithubBadge />
       <Hero
         name={data.name}
         description={data.description}
