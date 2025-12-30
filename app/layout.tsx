@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wrapped.crafter.uy"),
+  metadataBase: new URL("https://2025.crafter.run"),
   title: "Crafter Station | 2025 Wrapped",
   description: "A year of open source building. Sky is the limit.",
   icons: {
