@@ -21,6 +21,7 @@ import {
   TopReposSlide,
   ContributorsSlide,
   ThankYouSlide,
+  FriendsSlide,
 } from "./components/slides";
 import { DesktopWrapped } from "./components/desktop-wrapped";
 import stats from "@/data/stats.json";
@@ -91,6 +92,7 @@ const slides = [
   "activity",
   "top-repos",
   "contributors",
+  "friends",
   "thank-you",
 ];
 
@@ -200,6 +202,10 @@ export default function Home() {
                 totalCommits={totalContributorCommits}
                 totalContributors={data.totalContributors}
               />
+            </SliderWrapper>
+
+            <SliderWrapper value="friends">
+              <FriendsSlide />
             </SliderWrapper>
 
             <SliderWrapper value="thank-you">

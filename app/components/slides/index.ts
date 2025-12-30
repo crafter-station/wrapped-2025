@@ -10,4 +10,5 @@ export { TopReposSlide } from "./top-repos-slide";
 export { ContributorsSlide } from "./contributors-slide";
 export { VercelSlide } from "./vercel-slide";
 export { ThankYouSlide } from "./thank-you-slide";
+export { FriendsSlide } from "./friends-slide";
 
