@@ -11,6 +11,8 @@ import { EventBadge } from "./event-badge";
 import { CommunityStat } from "./community-stat";
 import { ScrollElement } from "@/components/ui/scroll-element";
 import { VercelLogo } from "@/components/logos/vercel";
+import { MoralejaDesignLogo } from "@/components/logos/moraleja-design";
+import { KeboLogo } from "@/components/logos/kebo";
 import type { OrganizationStats } from "@/lib/types";
 
 interface Achievement {
@@ -351,6 +353,7 @@ export function DesktopWrapped({
                         viewBox="0 0 24 24"
                         fill="currentColor"
                         className="text-amber-500"
+                        aria-hidden="true"
                       >
                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                       </svg>
@@ -415,6 +418,41 @@ export function DesktopWrapped({
               contributors={data.topContributors}
               maxContributions={data.topContributors[0]?.contributions || 1}
             />
+          </ScrollElement>
+        </div>
+      </section>
+
+      <section className="flex min-h-[60vh] items-center py-20">
+        <div className="mx-auto w-full max-w-4xl px-4">
+          <ScrollElement direction="up">
+            <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
+              Friends we made
+            </h2>
+            <p className="mb-10 text-center text-sm text-muted-foreground">
+              Along the way
+            </p>
+          </ScrollElement>
+          <ScrollElement direction="up" delay={0.2}>
+            <div className="flex flex-wrap items-center justify-center gap-10">
+              <a
+                href="https://moraleja.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-3 text-muted-foreground/50 transition-colors hover:text-foreground/70"
+              >
+                <MoralejaDesignLogo className="h-12 w-auto" />
+                <span className="text-sm">Moraleja Design</span>
+              </a>
+              <a
+                href="https://kebo.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-3 text-muted-foreground/50 transition-colors hover:text-foreground/70"
+              >
+                <KeboLogo className="h-12 w-auto" />
+                <span className="text-sm">Kebo</span>
+              </a>
+            </div>
           </ScrollElement>
         </div>
       </section>
