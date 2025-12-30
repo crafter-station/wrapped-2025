@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "fetch-stats": "bun run scripts/fetch-stats.ts",
+    "fetch-vercel": "bun run scripts/fetch-vercel-stats.ts",
     "generate-assets": "bun run scripts/generate-assets.ts"
   },
   "dependencies": {
