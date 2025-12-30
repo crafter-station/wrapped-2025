@@ -1,0 +1,773 @@
+{
+  "totalProjects": 100,
+  "totalDeployments": 1123,
+  "totalPageviews": 261542,
+  "totalVisitors": 69418,
+  "projects": [
+    {
+      "name": "elements",
+      "framework": "nextjs",
+      "deployments": 100,
+      "pageviews": 83800,
+      "visitors": 16916
+    },
+    {
+      "name": "text0",
+      "framework": "nextjs",
+      "deployments": 100,
+      "pageviews": 61746,
+      "visitors": 15393
+    },
+    {
+      "name": "shadcn-ui-customizer",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 61204,
+      "visitors": 11904
+    },
+    {
+      "name": "ia-hackathon-peru",
+      "framework": "nextjs",
+      "deployments": 100,
+      "pageviews": 21459,
+      "visitors": 10317
+    },
+    {
+      "name": "kebo",
+      "framework": "nextjs",
+      "deployments": 52,
+      "pageviews": 11022,
+      "visitors": 6841
+    },
+    {
+      "name": "hack0",
+      "framework": "nextjs",
+      "deployments": 100,
+      "pageviews": 7520,
+      "visitors": 1564
+    },
+    {
+      "name": "githunter",
+      "framework": "nextjs",
+      "deployments": 100,
+      "pageviews": 6990,
+      "visitors": 1987
+    },
+    {
+      "name": "railly",
+      "framework": "astro",
+      "deployments": 59,
+      "pageviews": 3528,
+      "visitors": 2254
+    },
+    {
+      "name": "crafter-station",
+      "framework": "astro",
+      "deployments": 32,
+      "pageviews": 2664,
+      "visitors": 1564
+    },
+    {
+      "name": "gift0",
+      "framework": "nextjs",
+      "deployments": 14,
+      "pageviews": 371,
+      "visitors": 192
+    },
+    {
+      "name": "hipoteca-ai",
+      "framework": "nextjs",
+      "deployments": 67,
+      "pageviews": 218,
+      "visitors": 65
+    },
+    {
+      "name": "v0-minimal-terminal-page",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 165,
+      "visitors": 131
+    },
+    {
+      "name": "registry",
+      "framework": "nextjs",
+      "deployments": 73,
+      "pageviews": 153,
+      "visitors": 34
+    },
+    {
+      "name": "v0-checkpoint-ui",
+      "framework": "nextjs",
+      "deployments": 15,
+      "pageviews": 144,
+      "visitors": 56
+    },
+    {
+      "name": "crafters-program",
+      "framework": "nextjs",
+      "deployments": 18,
+      "pageviews": 134,
+      "visitors": 36
+    },
+    {
+      "name": "v0-image-generation-flow",
+      "framework": "nextjs",
+      "deployments": 6,
+      "pageviews": 126,
+      "visitors": 23
+    },
+    {
+      "name": "pawboard",
+      "framework": "nextjs",
+      "deployments": 16,
+      "pageviews": 73,
+      "visitors": 31
+    },
+    {
+      "name": "v0-clerk-next-js-integration",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 63,
+      "visitors": 9
+    },
+    {
+      "name": "platanus-votes",
+      "framework": "nextjs",
+      "deployments": 8,
+      "pageviews": 50,
+      "visitors": 19
+    },
+    {
+      "name": "weightmates",
+      "framework": "nextjs",
+      "deployments": 0,
+      "pageviews": 40,
+      "visitors": 38
+    },
+    {
+      "name": "v0-v0-waitlist-setup",
+      "framework": "nextjs",
+      "deployments": 6,
+      "pageviews": 22,
+      "visitors": 10
+    },
+    {
+      "name": "store",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 14,
+      "visitors": 11
+    },
+    {
+      "name": "v0-kebo-revenue-app",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 6,
+      "visitors": 4
+    },
+    {
+      "name": "v0-infrastructure-ecosystem-explorer",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 6,
+      "visitors": 2
+    },
+    {
+      "name": "v0-tailwind-color-generation",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 5,
+      "visitors": 4
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-an-i-o",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 5,
+      "visitors": 3
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-on-xr",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 5,
+      "visitors": 3
+    },
+    {
+      "name": "v0-app-usercount",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 2,
+      "visitors": 1
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-an-on-jb",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 2,
+      "visitors": 1
+    },
+    {
+      "name": "v0-cayley-dickinson-prototype",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 2,
+      "visitors": 2
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-a-b2-b-m4",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 1,
+      "visitors": 1
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-sa-rt",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 1,
+      "visitors": 1
+    },
+    {
+      "name": "v0-clerking-waitlist",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 1,
+      "visitors": 1
+    },
+    {
+      "name": "wrapped-2025",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "xmas-2025",
+      "framework": "astro",
+      "deployments": 1,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "pintel",
+      "framework": "nextjs",
+      "deployments": 23,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-gw",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "kapso-crafter",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "kebo-usercount",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-kj",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "press",
+      "framework": "v0",
+      "deployments": 2,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "pdf-summarizer",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-clerk-waitlist-starter-0y",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "adventjs-llms",
+      "framework": "nextjs",
+      "deployments": 27,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-latam-map-component",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-peru-map-dotted",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-vercel-style-black-friday-map-ch",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-vercel-style-black-friday-map-cj",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-globe-to-map-transform-g5",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-glimmering-map-n1",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-glimmering-map",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-clerk-pixel-art-badge-generator",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-vercel-style-black-friday-map-ns",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-vercel-style-black-friday-map-5e",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-vercel-style-black-friday-map",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-6x",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-0g",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-h8",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-x9",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-v4",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-recursive-matrix",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-minimap-para-pdfs",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-hela-team-ui-design",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-exact-audio-component",
+      "framework": "nextjs",
+      "deployments": 5,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-image-shader-app",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-music-visualizer",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-mo-lo",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-gothic-font-generator",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-mo-v2",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-sa-34",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-mo-h7",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-sa-a4",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-mortgage-summary-tool",
+      "framework": "nextjs",
+      "deployments": 5,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-on-vw",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-template",
+      "framework": "nextjs",
+      "deployments": 7,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-peru-running-calendar",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist-a-waitlist-for-my-sa-5w",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-ch-atgpt-theme",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-ai-alan-watts-blog",
+      "framework": "nextjs",
+      "deployments": 4,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-1x",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-v0-wrapped-2025",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-9e",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-13",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-4e",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-j6",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-g9",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-logs-log-0-7s",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "semantik",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-next-js-project-requirements",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "hope-visualizer",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "ultra-deep-research",
+      "framework": "nextjs",
+      "deployments": 15,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "blog",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-waitlist",
+      "framework": "nextjs",
+      "deployments": 2,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "pdf-highlighter",
+      "framework": "nextjs",
+      "deployments": 1,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "linear-voice-agent",
+      "framework": "nextjs",
+      "deployments": 16,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "fom0",
+      "framework": "nextjs",
+      "deployments": 16,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "random",
+      "framework": "nextjs",
+      "deployments": 3,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "crafter-ui",
+      "framework": "nextjs",
+      "deployments": 10,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "adaptive-learning-system",
+      "framework": "nextjs",
+      "deployments": 13,
+      "pageviews": 0,
+      "visitors": 0
+    },
+    {
+      "name": "v0-supabase-theme-built-with-tin",
+      "framework": "v0",
+      "deployments": 0,
+      "pageviews": 0,
+      "visitors": 0
+    }
+  ],
+  "deploymentsByMonth": [
+    {
+      "month": "Jan",
+      "count": 13
+    },
+    {
+      "month": "Feb",
+      "count": 3
+    },
+    {
+      "month": "Mar",
+      "count": 12
+    },
+    {
+      "month": "Apr",
+      "count": 96
+    },
+    {
+      "month": "May",
+      "count": 145
+    },
+    {
+      "month": "Jun",
+      "count": 128
+    },
+    {
+      "month": "Jul",
+      "count": 77
+    },
+    {
+      "month": "Aug",
+      "count": 5
+    },
+    {
+      "month": "Sep",
+      "count": 3
+    },
+    {
+      "month": "Oct",
+      "count": 114
+    },
+    {
+      "month": "Nov",
+      "count": 136
+    },
+    {
+      "month": "Dec",
+      "count": 391
+    }
+  ],
+  "topFrameworks": [
+    {
+      "name": "nextjs",
+      "count": 69
+    },
+    {
+      "name": "v0",
+      "count": 28
+    },
+    {
+      "name": "astro",
+      "count": 3
+    }
+  ],
+  "generatedAt": "2025-12-30T22:02:07.517Z"
+}
