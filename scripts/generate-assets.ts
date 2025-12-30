@@ -34,26 +34,26 @@ async function generateOG() {
         <path d="${LOGO_PATH}" fill="#F8BC31"/>
       </g>
       
-      <text x="320" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#666" letter-spacing="3">
+      <text x="320" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#666" letter-spacing="3">
         OPEN SOURCE LAB
       </text>
       
-      <text x="320" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="500" fill="#fafafa" letter-spacing="-1">
+      <text x="320" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="500" fill="#fafafa" letter-spacing="-1">
         Crafter Station
       </text>
       
-      <g transform="translate(320, 400)">
-        <text font-family="system-ui, -apple-system, sans-serif" font-size="96" font-weight="200" fill="#fafafa" letter-spacing="-3">
+      <g transform="translate(320, 380)">
+        <text font-family="system-ui, -apple-system, sans-serif" font-size="100" font-weight="200" fill="#fafafa" letter-spacing="-3">
           2025
         </text>
-        <text x="280" y="-10" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#666" letter-spacing="3">
+        <text x="290" y="-10" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#666" letter-spacing="3">
           WRAPPED
         </text>
       </g>
       
-      <line x1="320" y1="440" x2="520" y2="440" stroke="#333" stroke-width="1"/>
+      <line x1="320" y1="420" x2="540" y2="420" stroke="#333" stroke-width="1"/>
       
-      <g transform="translate(320, 480)">
+      <g transform="translate(320, 470)">
         <text font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#888">
           <tspan font-weight="600" fill="#F8BC31">${stats.totalStars}</tspan>
           <tspan fill="#666" dx="6">stars</tspan>
@@ -64,7 +64,7 @@ async function generateOG() {
         </text>
       </g>
       
-      <g transform="translate(320, 520)">
+      <g transform="translate(320, 510)">
         <text font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#888">
           <tspan font-weight="600" fill="#fafafa">${stats.totalCommits.toLocaleString()}</tspan>
           <tspan fill="#666" dx="6">commits</tspan>
