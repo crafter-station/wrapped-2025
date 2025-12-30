@@ -1,0 +1,675 @@
+{
+  "name": "crafter-station",
+  "description": "Open Source Lab | Sky is the limit",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/120886289?v=4",
+  "url": "https://github.com/crafter-station",
+  "createdAt": "2022-12-18T05:04:06Z",
+  "publicRepos": 36,
+  "totalStars": 969,
+  "totalForks": 106,
+  "totalPRs": 284,
+  "totalPRsMerged": 262,
+  "totalIssues": 233,
+  "totalIssuesClosed": 142,
+  "totalCommits": 2655,
+  "totalContributors": 27,
+  "totalLinesOfCode": 310560,
+  "repositories": [
+    {
+      "name": "text0",
+      "description": "Absurdly smart (and personal) autocomplete",
+      "stargazerCount": 432,
+      "forkCount": 67,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-04-08T01:55:44Z",
+      "pushedAt": "2025-06-07T21:23:21Z",
+      "url": "https://github.com/crafter-station/text0"
+    },
+    {
+      "name": "elements",
+      "description": "full-stack shadcn/ui components",
+      "stargazerCount": 341,
+      "forkCount": 21,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-08-25T03:15:40Z",
+      "pushedAt": "2025-12-25T19:08:30Z",
+      "url": "https://github.com/crafter-station/elements"
+    },
+    {
+      "name": "peru.ai-hackathon.co",
+      "description": "Peru AI Hackathon 2025",
+      "stargazerCount": 28,
+      "forkCount": 5,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-09-23T01:10:23Z",
+      "pushedAt": "2025-12-11T18:32:04Z",
+      "url": "https://github.com/crafter-station/peru.ai-hackathon.co"
+    },
+    {
+      "name": "chess-battle",
+      "description": "llms playing chess",
+      "stargazerCount": 28,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-08-25T17:05:27Z",
+      "pushedAt": "2025-10-28T04:14:26Z",
+      "url": "https://github.com/crafter-station/chess-battle"
+    },
+    {
+      "name": "lupa",
+      "description": "The Knowledge API for AI Agents",
+      "stargazerCount": 22,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-09-16T08:01:33Z",
+      "pushedAt": "2025-11-17T06:15:23Z",
+      "url": "https://github.com/crafter-station/lupa"
+    },
+    {
+      "name": "hack0",
+      "description": "Hackathons & Tech Events in Peru 🇵🇪",
+      "stargazerCount": 15,
+      "forkCount": 3,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-08-23T23:24:52Z",
+      "pushedAt": "2025-12-30T05:15:02Z",
+      "url": "https://github.com/crafter-station/hack0"
+    },
+    {
+      "name": "githunter",
+      "description": "",
+      "stargazerCount": 14,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-05-01T17:08:06Z",
+      "pushedAt": "2025-06-02T14:48:54Z",
+      "url": "https://github.com/crafter-station/githunter"
+    },
+    {
+      "name": "gift0",
+      "description": "Share Wishlists with Friends",
+      "stargazerCount": 10,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-10T21:52:42Z",
+      "pushedAt": "2025-12-14T04:16:31Z",
+      "url": "https://github.com/crafter-station/gift0"
+    },
+    {
+      "name": "pintel",
+      "description": "Draw, guess, evaluate with AI",
+      "stargazerCount": 9,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-03T07:15:01Z",
+      "pushedAt": "2025-12-16T07:56:12Z",
+      "url": "https://github.com/crafter-station/pintel"
+    },
+    {
+      "name": "exec0",
+      "description": "Code execution API",
+      "stargazerCount": 7,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-12T21:45:45Z",
+      "pushedAt": "2025-12-24T23:50:36Z",
+      "url": "https://github.com/crafter-station/exec0"
+    },
+    {
+      "name": "pawboard",
+      "description": "",
+      "stargazerCount": 6,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-28T06:05:45Z",
+      "pushedAt": "2025-12-30T20:37:52Z",
+      "url": "https://github.com/crafter-station/pawboard"
+    },
+    {
+      "name": "album0",
+      "description": "",
+      "stargazerCount": 6,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-08-25T21:09:57Z",
+      "pushedAt": "2025-08-26T17:17:59Z",
+      "url": "https://github.com/crafter-station/album0"
+    },
+    {
+      "name": "crafter-ui",
+      "description": "",
+      "stargazerCount": 6,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-02-23T23:06:45Z",
+      "pushedAt": "2025-05-08T05:40:35Z",
+      "url": "https://github.com/crafter-station/crafter-ui"
+    },
+    {
+      "name": "ai-elements-assistant",
+      "description": "AI Assistant for Vercel's AI Elements",
+      "stargazerCount": 5,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-10-16T23:03:03Z",
+      "pushedAt": "2025-10-24T15:03:55Z",
+      "url": "https://github.com/crafter-station/ai-elements-assistant"
+    },
+    {
+      "name": "ultra-deep-research",
+      "description": "multi-LLM deep research pipeline",
+      "stargazerCount": 5,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-07-19T20:11:00Z",
+      "pushedAt": "2025-07-20T07:17:53Z",
+      "url": "https://github.com/crafter-station/ultra-deep-research"
+    },
+    {
+      "name": "scrapi",
+      "description": "scrapi + api",
+      "stargazerCount": 4,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-11-24T09:33:06Z",
+      "pushedAt": "2025-11-26T20:04:46Z",
+      "url": "https://github.com/crafter-station/scrapi"
+    },
+    {
+      "name": "hipoteca-findr",
+      "description": "solving mortgage uncertainty with AI",
+      "stargazerCount": 4,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-06-07T23:57:43Z",
+      "pushedAt": "2025-07-12T01:53:06Z",
+      "url": "https://github.com/crafter-station/hipoteca-findr"
+    },
+    {
+      "name": "gradual-legacy",
+      "description": "The learn everything app",
+      "stargazerCount": 4,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-02-06T22:47:03Z",
+      "pushedAt": "2025-05-20T05:30:05Z",
+      "url": "https://github.com/crafter-station/gradual-legacy"
+    },
+    {
+      "name": "pdf-summarizer",
+      "description": "",
+      "stargazerCount": 3,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-21T18:28:32Z",
+      "pushedAt": "2025-12-21T22:22:54Z",
+      "url": "https://github.com/crafter-station/pdf-summarizer"
+    },
+    {
+      "name": "advent0",
+      "description": "",
+      "stargazerCount": 3,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-19T15:37:53Z",
+      "pushedAt": "2025-12-21T04:19:35Z",
+      "url": "https://github.com/crafter-station/advent0"
+    },
+    {
+      "name": "cs",
+      "description": "internal cli",
+      "stargazerCount": 3,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-20T21:52:12Z",
+      "pushedAt": "2025-12-20T22:43:08Z",
+      "url": "https://github.com/crafter-station/cs"
+    },
+    {
+      "name": "pong0",
+      "description": "LLMs play tennis",
+      "stargazerCount": 3,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-09-14T02:03:53Z",
+      "pushedAt": "2025-09-14T08:34:41Z",
+      "url": "https://github.com/crafter-station/pong0"
+    },
+    {
+      "name": "spookie.cam",
+      "description": "",
+      "stargazerCount": 3,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2024-10-12T19:30:00Z",
+      "pushedAt": "2024-10-23T09:20:31Z",
+      "url": "https://github.com/crafter-station/spookie.cam"
+    },
+    {
+      "name": "kapso-crafter",
+      "description": "",
+      "stargazerCount": 2,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-28T04:39:40Z",
+      "pushedAt": "2025-12-28T09:00:57Z",
+      "url": "https://github.com/crafter-station/kapso-crafter"
+    },
+    {
+      "name": "receipt0",
+      "description": "LLMs extract information from receipts",
+      "stargazerCount": 2,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-09-11T22:06:34Z",
+      "pushedAt": "2025-09-11T22:41:19Z",
+      "url": "https://github.com/crafter-station/receipt0"
+    },
+    {
+      "name": "website",
+      "description": "",
+      "stargazerCount": 1,
+      "forkCount": 3,
+      "primaryLanguage": {
+        "name": "Astro"
+      },
+      "createdAt": "2024-06-21T03:27:18Z",
+      "pushedAt": "2025-12-22T07:47:40Z",
+      "url": "https://github.com/crafter-station/website"
+    },
+    {
+      "name": "linear-voice-agent",
+      "description": "",
+      "stargazerCount": 1,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-05-31T18:35:06Z",
+      "pushedAt": "2025-06-01T07:58:03Z",
+      "url": "https://github.com/crafter-station/linear-voice-agent"
+    },
+    {
+      "name": "website-2023",
+      "description": "",
+      "stargazerCount": 1,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "Astro"
+      },
+      "createdAt": "2023-09-15T00:30:08Z",
+      "pushedAt": "2024-02-01T05:38:14Z",
+      "url": "https://github.com/crafter-station/website-2023"
+    },
+    {
+      "name": "retest",
+      "description": "A/B testing platform for quick product teams",
+      "stargazerCount": 1,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2023-12-04T17:15:09Z",
+      "pushedAt": "2023-12-12T19:24:17Z",
+      "url": "https://github.com/crafter-station/retest"
+    },
+    {
+      "name": "xmas-2025",
+      "description": "",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Astro"
+      },
+      "createdAt": "2025-12-30T05:22:11Z",
+      "pushedAt": "2025-12-30T05:22:13Z",
+      "url": "https://github.com/crafter-station/xmas-2025"
+    },
+    {
+      "name": "press",
+      "description": "",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Astro"
+      },
+      "createdAt": "2025-12-14T04:47:00Z",
+      "pushedAt": "2025-12-27T02:38:31Z",
+      "url": "https://github.com/crafter-station/press"
+    },
+    {
+      "name": "adventjs-llms",
+      "description": "",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-12-21T18:27:46Z",
+      "pushedAt": "2025-12-21T18:27:55Z",
+      "url": "https://github.com/crafter-station/adventjs-llms"
+    },
+    {
+      "name": ".github",
+      "description": "Organization README",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": null,
+      "createdAt": "2023-09-23T21:16:43Z",
+      "pushedAt": "2025-05-27T15:38:41Z",
+      "url": "https://github.com/crafter-station/.github"
+    },
+    {
+      "name": "krafter-ui",
+      "description": "",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2024-08-31T22:15:06Z",
+      "pushedAt": "2024-08-31T22:16:53Z",
+      "url": "https://github.com/crafter-station/krafter-ui"
+    },
+    {
+      "name": "nextjs-starter-template",
+      "description": "",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2024-02-03T01:54:26Z",
+      "pushedAt": "2024-02-04T05:51:32Z",
+      "url": "https://github.com/crafter-station/nextjs-starter-template"
+    },
+    {
+      "name": "krafter-ui-2023",
+      "description": "",
+      "stargazerCount": 0,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2023-12-28T05:24:26Z",
+      "pushedAt": "2023-12-28T05:36:04Z",
+      "url": "https://github.com/crafter-station/krafter-ui-2023"
+    }
+  ],
+  "topRepositories": [
+    {
+      "name": "text0",
+      "description": "Absurdly smart (and personal) autocomplete",
+      "stargazerCount": 432,
+      "forkCount": 67,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-04-08T01:55:44Z",
+      "pushedAt": "2025-06-07T21:23:21Z",
+      "url": "https://github.com/crafter-station/text0"
+    },
+    {
+      "name": "elements",
+      "description": "full-stack shadcn/ui components",
+      "stargazerCount": 341,
+      "forkCount": 21,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-08-25T03:15:40Z",
+      "pushedAt": "2025-12-25T19:08:30Z",
+      "url": "https://github.com/crafter-station/elements"
+    },
+    {
+      "name": "peru.ai-hackathon.co",
+      "description": "Peru AI Hackathon 2025",
+      "stargazerCount": 28,
+      "forkCount": 5,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-09-23T01:10:23Z",
+      "pushedAt": "2025-12-11T18:32:04Z",
+      "url": "https://github.com/crafter-station/peru.ai-hackathon.co"
+    },
+    {
+      "name": "chess-battle",
+      "description": "llms playing chess",
+      "stargazerCount": 28,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-08-25T17:05:27Z",
+      "pushedAt": "2025-10-28T04:14:26Z",
+      "url": "https://github.com/crafter-station/chess-battle"
+    },
+    {
+      "name": "lupa",
+      "description": "The Knowledge API for AI Agents",
+      "stargazerCount": 22,
+      "forkCount": 1,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "createdAt": "2025-09-16T08:01:33Z",
+      "pushedAt": "2025-11-17T06:15:23Z",
+      "url": "https://github.com/crafter-station/lupa"
+    }
+  ],
+  "topContributors": [
+    {
+      "login": "Railly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51397083?v=4",
+      "contributions": 964,
+      "url": "https://github.com/Railly"
+    },
+    {
+      "login": "cuevaio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83598208?v=4",
+      "contributions": 860,
+      "url": "https://github.com/cuevaio"
+    },
+    {
+      "login": "camilocbarrera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85809276?v=4",
+      "contributions": 510,
+      "url": "https://github.com/camilocbarrera"
+    },
+    {
+      "login": "Jibaru",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54339832?v=4",
+      "contributions": 124,
+      "url": "https://github.com/Jibaru"
+    },
+    {
+      "login": "shiarauzo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43147102?v=4",
+      "contributions": 76,
+      "url": "https://github.com/shiarauzo"
+    },
+    {
+      "login": "MrUprizing",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/111722885?v=4",
+      "contributions": 51,
+      "url": "https://github.com/MrUprizing"
+    },
+    {
+      "login": "carlosdtn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54995804?v=4",
+      "contributions": 46,
+      "url": "https://github.com/carlosdtn"
+    },
+    {
+      "login": "tomasCalletce",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64665732?v=4",
+      "contributions": 41,
+      "url": "https://github.com/tomasCalletce"
+    },
+    {
+      "login": "EdwardR0507",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57167533?v=4",
+      "contributions": 27,
+      "url": "https://github.com/EdwardR0507"
+    },
+    {
+      "login": "claude",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "contributions": 12,
+      "url": "https://github.com/claude"
+    }
+  ],
+  "languages": [
+    {
+      "name": "TypeScript",
+      "bytes": 11823129,
+      "percentage": 95.17579194765075,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Astro",
+      "bytes": 295597,
+      "percentage": 2.379545936811627,
+      "color": "#ff5a03"
+    },
+    {
+      "name": "CSS",
+      "bytes": 223714,
+      "percentage": 1.8008901974914373,
+      "color": "#563d7c"
+    },
+    {
+      "name": "MDX",
+      "bytes": 51855,
+      "percentage": 0.41743101098240826,
+      "color": "#fcb32c"
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 24658,
+      "percentage": 0.19849607306535963,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Shell",
+      "bytes": 1385,
+      "percentage": 0.011149203552418,
+      "color": "#89e051"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 894,
+      "percentage": 0.007196670018672702,
+      "color": "#6e7681"
+    },
+    {
+      "name": "Python",
+      "bytes": 468,
+      "percentage": 0.003767384305076985,
+      "color": "#3572A5"
+    }
+  ],
+  "monthlyActivity": [
+    {
+      "month": "Jan",
+      "commits": 0
+    },
+    {
+      "month": "Feb",
+      "commits": 39
+    },
+    {
+      "month": "Mar",
+      "commits": 24
+    },
+    {
+      "month": "Apr",
+      "commits": 194
+    },
+    {
+      "month": "May",
+      "commits": 346
+    },
+    {
+      "month": "Jun",
+      "commits": 117
+    },
+    {
+      "month": "Jul",
+      "commits": 55
+    },
+    {
+      "month": "Aug",
+      "commits": 161
+    },
+    {
+      "month": "Sep",
+      "commits": 277
+    },
+    {
+      "month": "Oct",
+      "commits": 464
+    },
+    {
+      "month": "Nov",
+      "commits": 298
+    },
+    {
+      "month": "Dec",
+      "commits": 680
+    }
+  ],
+  "newReposIn2025": 28,
+  "generatedAt": "2025-12-30T20:56:13.407Z"
+}
