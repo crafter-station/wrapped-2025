@@ -13,6 +13,8 @@ import { ScrollElement } from "@/components/ui/scroll-element";
 import { VercelLogo } from "@/components/logos/vercel";
 import { MoralejaDesignLogo } from "@/components/logos/moraleja-design";
 import { KeboLogo } from "@/components/logos/kebo";
+import { ACCLogo } from "@/components/logos/acc";
+import { THCLogo } from "@/components/logos/thc";
 import type { OrganizationStats } from "@/lib/types";
 
 interface Achievement {
@@ -433,24 +435,47 @@ export function DesktopWrapped({
             </p>
           </ScrollElement>
           <ScrollElement direction="up" delay={0.2}>
-            <div className="flex flex-wrap items-center justify-center gap-10">
+            <div className="flex flex-col items-center gap-10">
+              {/* Row 1: Kebo + ACC */}
+              <div className="flex items-center justify-center gap-16">
+                <a
+                  href="https://kebo.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center gap-3"
+                >
+                  <KeboLogo className="h-12 w-auto" />
+                  <span className="text-sm">Kebo</span>
+                </a>
+                <a
+                  href="https://letsacc.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center gap-3"
+                >
+                  <ACCLogo className="h-12 w-auto" />
+                  <span className="text-sm">ACC</span>
+                </a>
+              </div>
+              {/* Row 2: Moraleja */}
               <a
                 href="https://moraleja.co"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-3 text-muted-foreground/50 transition-colors hover:text-foreground/70"
+                className="flex flex-col items-center gap-3"
               >
-                <MoralejaDesignLogo className="h-12 w-auto" />
+                <MoralejaDesignLogo className="h-10 w-auto" />
                 <span className="text-sm">Moraleja Design</span>
               </a>
+              {/* Row 3: THC */}
               <a
-                href="https://kebo.app"
+                href="https://hackathon.lat"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-3 text-muted-foreground/50 transition-colors hover:text-foreground/70"
+                className="flex flex-col items-center gap-3"
               >
-                <KeboLogo className="h-12 w-auto" />
-                <span className="text-sm">Kebo</span>
+                <THCLogo className="h-6 w-auto" />
+                <span className="text-sm">The Hackathon Company</span>
               </a>
             </div>
           </ScrollElement>

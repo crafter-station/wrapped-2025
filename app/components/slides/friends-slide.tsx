@@ -1,5 +1,7 @@
-import { MoralejaDesignLogo } from "@/components/logos/moraleja-design";
+import { ACCLogo } from "@/components/logos/acc";
 import { KeboLogo } from "@/components/logos/kebo";
+import { MoralejaDesignLogo } from "@/components/logos/moraleja-design";
+import { THCLogo } from "@/components/logos/thc";
 
 export function FriendsSlide() {
   return (
@@ -11,25 +13,50 @@ export function FriendsSlide() {
         Along the way
       </p>
 
-      <div className="relative z-50 flex items-center gap-10">
+      <div className="relative z-50 flex flex-col items-center gap-8">
+        {/* Row 1: Kebo + ACC */}
+        <div className="flex items-center gap-10">
+          <a
+            href="https://kebo.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center gap-2"
+          >
+            <KeboLogo className="h-10 w-auto" />
+            <span className="text-xs">Kebo</span>
+          </a>
+
+          <a
+            href="https://letsacc.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center gap-2"
+          >
+            <ACCLogo className="h-10 w-auto" />
+            <span className="text-xs">ACC</span>
+          </a>
+        </div>
+
+        {/* Row 2: Moraleja */}
         <a
           href="https://moraleja.co"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center gap-2 text-muted-foreground/50 transition-colors active:text-foreground/70"
+          className="flex flex-col items-center gap-2"
         >
-          <MoralejaDesignLogo className="h-10 w-auto" />
+          <MoralejaDesignLogo className="h-8 w-auto" />
           <span className="text-xs">Moraleja Design</span>
         </a>
 
+        {/* Row 3: THC */}
         <a
-          href="https://kebo.app"
+          href="https://hackathon.lat"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center gap-2 text-muted-foreground/50 transition-colors active:text-foreground/70"
+          className="flex flex-col items-center gap-2"
         >
-          <KeboLogo className="h-10 w-auto" />
-          <span className="text-xs">Kebo</span>
+          <THCLogo className="h-5 w-auto" />
+          <span className="text-xs">The Hackathon Company</span>
         </a>
       </div>
     </div>
