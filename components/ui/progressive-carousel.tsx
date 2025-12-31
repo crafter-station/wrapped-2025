@@ -247,6 +247,7 @@ export const SliderBtn: FC<SliderBtnProps> = ({
 
   return (
     <button
+      type="button"
       className={cn(
         `relative ${active === value ? "opacity-100" : "opacity-50"}`,
         className
@@ -289,6 +290,7 @@ export const SliderIndicator: FC<SliderIndicatorProps> = ({
 
         return (
           <button
+            type="button"
             key={value}
             onClick={() => handleButtonClick(value)}
             className={cn(
@@ -316,16 +318,18 @@ export const SliderNavigation: FC<{ className?: string }> = ({ className }) => {
   const { goToNext, goToPrev } = useProgressSliderContext();
 
   return (
-    <div className={cn("absolute inset-0 flex", className)}>
+    <div className={cn("absolute inset-0 flex pointer-events-none", className)}>
       <button
+        type="button"
         onClick={goToPrev}
-        className="w-1/3 h-full cursor-pointer"
+        className="w-1/3 h-full cursor-pointer pointer-events-auto"
         aria-label="Previous slide"
       />
       <div className="w-1/3" />
       <button
+        type="button"
         onClick={goToNext}
-        className="w-1/3 h-full cursor-pointer"
+        className="w-1/3 h-full cursor-pointer pointer-events-auto"
         aria-label="Next slide"
       />
     </div>

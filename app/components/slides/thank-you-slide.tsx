@@ -13,7 +13,7 @@ export function ThankYouSlide({ githubUrl, communityUrl, generatedAt }: ThankYou
           for being part of our open source journey
         </p>
 
-        <div className="mt-8 flex flex-col gap-3">
+        <div className="relative z-50 mt-8 flex flex-col gap-3">
           <a
             href={githubUrl}
             target="_blank"
