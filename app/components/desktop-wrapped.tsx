@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect, useRef, useState, useCallback } from "react";
+import { motion, AnimatePresence } from "motion/react";
 import { Hero } from "./hero";
 import { StatCard } from "./stat-card";
 import { LanguageBar } from "./language-bar";
@@ -62,6 +64,48 @@ interface DesktopWrappedProps {
   communityStats: CommunityStatItem[];
 }
 
+function KeyboardHint({ currentSection, totalSections }: { currentSection: number; totalSections: number }) {
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setVisible(false), 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    setVisible(true);
+    const timer = setTimeout(() => setVisible(false), 2000);
+    return () => clearTimeout(timer);
+  }, [currentSection]);
+
+  return (
+    <AnimatePresence>
+      {visible && (
+        <motion.div
+          className="fixed bottom-4 left-1/2 z-50 hidden -translate-x-1/2 items-center gap-2 rounded-full border border-border/30 bg-background/60 px-2.5 py-1 backdrop-blur-sm md:flex"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 0.6, y: 0 }}
+          exit={{ opacity: 0, y: 10 }}
+          transition={{ duration: 0.15 }}
+          whileHover={{ opacity: 1 }}
+        >
+          <div className="flex items-center gap-1">
+            <kbd className="flex h-5 w-5 items-center justify-center rounded border border-border/50 bg-muted/50 text-[10px] text-muted-foreground">
+              ←
+            </kbd>
+            <kbd className="flex h-5 w-5 items-center justify-center rounded border border-border/50 bg-muted/50 text-[10px] text-muted-foreground">
+              →
+            </kbd>
+          </div>
+          <span className="text-[10px] text-muted-foreground/70">
+            {currentSection + 1}/{totalSections}
+          </span>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
 export function DesktopWrapped({
   data,
   vercelStats,
@@ -70,16 +114,69 @@ export function DesktopWrapped({
   onlineEvents,
   communityStats,
 }: DesktopWrappedProps) {
+  const sectionsRef = useRef<(HTMLElement | null)[]>([]);
+  const [currentSection, setCurrentSection] = useState(0);
+  const totalSections = 13;
+
+  const scrollToSection = useCallback((index: number) => {
+    const section = sectionsRef.current[index];
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      setCurrentSection(index);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        const nextIndex = Math.min(currentSection + 1, totalSections - 1);
+        scrollToSection(nextIndex);
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        const prevIndex = Math.max(currentSection - 1, 0);
+        scrollToSection(prevIndex);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentSection, scrollToSection]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const index = sectionsRef.current.findIndex((ref) => ref === entry.target);
+            if (index !== -1) setCurrentSection(index);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    sectionsRef.current.forEach((section) => {
+      if (section) observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
-      <Hero
-        name={data.name}
-        description={data.description}
-        avatarUrl={data.avatarUrl}
-        year={2025}
-      />
+      <KeyboardHint currentSection={currentSection} totalSections={totalSections} />
 
-      <section className="flex min-h-[80vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[0] = el; }}>
+        <Hero
+          name={data.name}
+          description={data.description}
+          avatarUrl={data.avatarUrl}
+          year={2025}
+        />
+      </section>
+
+      <section ref={(el) => { sectionsRef.current[1] = el; }} className="flex min-h-[80vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-8 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -103,7 +200,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[80vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[2] = el; }} className="flex min-h-[80vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-8 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -130,7 +227,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[80vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[3] = el; }} className="flex min-h-[80vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <div className="mb-6 flex justify-center">
@@ -204,7 +301,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[80vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[4] = el; }} className="flex min-h-[80vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -228,7 +325,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[60vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[5] = el; }} className="flex min-h-[60vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -262,7 +359,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[80vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[6] = el; }} className="flex min-h-[80vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -297,7 +394,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[60vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[7] = el; }} className="flex min-h-[60vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="left">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -313,7 +410,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[60vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[8] = el; }} className="flex min-h-[60vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="right">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -369,7 +466,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="py-20">
+      <section ref={(el) => { sectionsRef.current[9] = el; }} className="py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -402,7 +499,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[80vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[10] = el; }} className="flex min-h-[80vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -424,7 +521,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[60vh] items-center py-20">
+<section ref={(el) => { sectionsRef.current[11] = el; }} className="flex min-h-[60vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="up">
             <h2 className="mb-2 text-center text-2xl font-light text-foreground sm:text-3xl">
@@ -436,7 +533,6 @@ export function DesktopWrapped({
           </ScrollElement>
           <ScrollElement direction="up" delay={0.2}>
             <div className="flex flex-col items-center gap-10">
-              {/* Row 1: Kebo + ACC */}
               <div className="flex items-center justify-center gap-16">
                 <a
                   href="https://kebo.app"
@@ -457,7 +553,6 @@ export function DesktopWrapped({
                   <span className="text-sm">ACC</span>
                 </a>
               </div>
-              {/* Row 2: Moraleja */}
               <a
                 href="https://moraleja.co"
                 target="_blank"
@@ -467,7 +562,6 @@ export function DesktopWrapped({
                 <MoralejaDesignLogo className="h-10 w-auto" />
                 <span className="text-sm">Moraleja Design</span>
               </a>
-              {/* Row 3: THC */}
               <a
                 href="https://hackathon.lat"
                 target="_blank"
@@ -482,7 +576,7 @@ export function DesktopWrapped({
         </div>
       </section>
 
-      <section className="flex min-h-[50vh] items-center py-20">
+      <section ref={(el) => { sectionsRef.current[12] = el; }} className="flex min-h-[50vh] items-center py-20">
         <div className="mx-auto w-full max-w-4xl px-4">
           <ScrollElement direction="none">
             <div className="text-center">
